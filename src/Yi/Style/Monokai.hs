@@ -30,7 +30,7 @@ module Yi.Style.Monokai
        where
 
 import Data.Bits   (shiftR)
-import Data.Monoid (mappend)
+import Data.Monoid (mappend, mempty)
 import Data.Word   (Word32)
 import Yi
 
@@ -71,6 +71,7 @@ monokaiTheme = defaultTheme `override` \sets _ -> sets
   , operatorStyle      = withFg monokaiMagenta
 
   , importStyle        = withFg monokaiMagenta
+  , numberStyle        = mempty
   -- , preprocessorStyle  = withFg preproc
 
   }
@@ -87,6 +88,7 @@ rgb x = RGB (fi (x `shiftR` 16))
 -- | Hex value: 0x89BDFF
 monokaiBlueLight :: Color
 monokaiBlueLight = rgb 0x89BDFF
+
 -- | Hex value: 0x595959
 monokaiGrey :: Color
 monokaiGrey = rgb 0x595959
