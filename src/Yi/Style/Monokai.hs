@@ -24,7 +24,7 @@ monokaiTheme = defaultTheme `override` \sets _ -> sets
   -- no docstringStyle either?
 
   -- I hope variableStyle covers functions functions
-  , variableStyle      = withFg monokaiMagenta
+--  , variableStyle      = withFg monokaiGreenLight -- monokaiMagenta
   , keywordStyle       = withFg monokaiMagenta
   , stringStyle        = withFg monokaiYellow
   , typeStyle          = withFg monokaiBlueLight
