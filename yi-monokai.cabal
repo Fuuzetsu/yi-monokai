@@ -1,5 +1,5 @@
 name:                yi-monokai
-version:             0.1.1.0
+version:             0.1.1.1
 synopsis:            Monokai colour theme for the Yi text editor
 description:         Monokai colour theme for Yi. Check source for yi.hs usage.
 homepage:            https://github.com/Fuuzetsu/yi-monokai
@@ -7,7 +7,7 @@ license:             BSD3
 license-file:        LICENSE
 author:              Mateusz Kowalczyk
 maintainer:          fuuzetsu@fuuzetsu.co.uk
-category:            Editors
+category:            Editor
 build-type:          Simple
 extra-source-files:  README.md
 cabal-version:       >=1.10
