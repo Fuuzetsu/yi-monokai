@@ -1,5 +1,5 @@
 name:                yi-monokai
-version:             0.1.1.1
+version:             0.1.1.2
 synopsis:            Monokai colour theme for the Yi text editor
 description:         Monokai colour theme for Yi. Check source for yi.hs usage.
 homepage:            https://github.com/Fuuzetsu/yi-monokai
@@ -20,4 +20,4 @@ library
   default-language:    Haskell2010
   exposed-modules:     Yi.Style.Monokai
 
-  build-depends:       base >=4.6 && <4.7, yi >=0.7
+  build-depends:       base >=4.6 && <5, yi >=0.8
